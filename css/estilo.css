@@ -1,0 +1,70 @@
+body{
+	background-color: #ccc;
+}
+
+h1{
+	text-align: center;
+	text-decoration: underline;
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+h2{
+	font-size: 25px;
+	font-weight: bold;
+	color: red;
+}
+
+h3{
+	font-size: 25px;
+	font-weight: bold;
+	color: green;
+}
+
+h4{
+	font-size: 25px;
+	font-weight: bold;
+	color: blue;
+}
+
+input[type='button']{
+	width: 100px;
+	height: 50px;
+	font-weight: bold;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+textarea{
+	margin-bottom: 20px;
+}
+
+fieldset{
+	width: 900px;
+	min-height: 600px;
+	border:10px solid #B73030;
+	margin: 10px auto;
+	padding: 20px;
+}
+
+.box{
+	display: inline-block;
+	width: 100%;
+	min-height: 70px;
+	border: 3px solid #fff;
+	margin: 10px 0 40px 0;
+	padding: 5px;
+}
+
+table{
+	margin: 5px;
+}
+
+table tr, th, td{
+	border: 1px solid #000;
+}
+
+table th{
+	width: 100px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset='utf-8'>
+	<title>Terceiro Exemplo com AJAX</title>
+	<link rel="stylesheet" type="text/css" href="../css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+</head>
+<body>
+
+	<fieldset>
+		<h1>Exemplo 3</h1>
+
+		<!-- Requisição $.ajax() -->
+		<input type="button" value="$.ajax()" id='ajax'><br>
+		<span class='box ajax'>
+			Estado:
+			<select class='estado'>
+				<option>Carregar Estado</option>
+			</select><br><br>
+			Cidade:
+			<select class='cidade'>
+				<option>Carregar Cidade</option>
+			</select><br>
+			<span class='aguarde'></span>
+		</span>
+
+		<!-- Requisição $.get() -->
+		<input type="button" value="$.get()" id='get'><br>
+		<span class='box get'>
+			
+		</span>
+
+		<!-- Requisição $.post() -->
+		<input type="button" value="$.post()" id='post'><br>
+		<span class='box post'>
+			
+		</span>
+
+	</fieldset>
+
+	<script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="../js/exemplo3.js"></script>
+
+</body>
+</html>
